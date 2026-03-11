@@ -1,3 +1,7 @@
+![Dashboard Preview 1](music_analysis_1.png)
+
+![Dashboard Preview 2](music_analysis_2.png)
+
 # 📊 Chart Performance Insights
 
 ## **Ranking Stability, Movement Patterns & Song Mood Analysis**
