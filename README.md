@@ -123,8 +123,8 @@ This dashboard transforms raw chart data into strategic performance insights usi
 ## **📂 Files Included**
 
 - Tableau Packaged Workbook (.twbx)
-- Supporting dataset
-- Dashboard visual export
+- Supporting Dataset (Sample - Superstore.xls)
+- Dashboard Screenshot Preview
 
 ---
 
