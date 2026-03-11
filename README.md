@@ -1,6 +1,7 @@
-![Dashboard Preview 1](music_analysis_1.png)
-
-![Dashboard Preview 2](music_analysis_2.png)
+<p align="center">
+  <img src="music_analysis_1.png" width="45%" />
+  <img src="music_analysis_2.png" width="45%" />
+</p>
 
 # 📊 Chart Performance Insights
 
