@@ -1,155 +1,154 @@
-📊 Chart Performance Insights
-Ranking Stability, Movement Patterns & Song Mood Analysis
-🎯 Project Overview
+# 📊 Chart Performance Insights
 
-This Tableau dashboard analyzes weekly music chart performance to uncover:
+## **Ranking Stability, Movement Patterns & Song Mood Analysis**
 
-How stable song rankings are week-to-week
+---
 
-How much songs move up or down the chart
+## **🎯 Project Overview**
 
-Emotional patterns in top-performing songs
+This interactive Tableau dashboard analyzes weekly music chart performance to uncover structured patterns in ranking behavior and audio characteristics.
 
-The relationship between tempo and energy
+The project focuses on understanding:
 
-The objective is to combine ranking behavior with audio features to better understand what drives chart performance.
+- **Ranking Stability**
+- **Weekly Position Movement**
+- **Energy & Danceability Relationships**
+- **Tempo Influence on Song Performance**
+- **Mood Patterns Using Valence**
 
-This dashboard integrates ranking analytics with music attributes to deliver both business insights and creative analysis.
+This dashboard transforms raw chart data into strategic performance insights using visual analytics.
 
-📌 Dashboard Sections & Insights
-1️⃣ How Last Week’s Rank Predicts This Week’s Rank
+---
 
-📈 Scatter Plot with Trend Line
+## **📌 Dashboard Structure**
 
-X-axis: Previous Chart Position
+---
 
-Y-axis: Current Chart Position
+## **1️⃣ Ranking Stability Analysis**
 
-Colored by position movement
+## **How Last Week’s Rank Predicts This Week’s Rank**
 
-Artist filter included
+**Visualization Type:** Scatter Plot with Trend Line  
+**X-Axis:** Previous Chart Position  
+**Y-Axis:** Current Chart Position  
+**Color Encoding:** Position Evolution (Movement)  
+**Filter:** Artist Credit Name (Interactive)
 
-Insight:
+### **Key Insights**
 
-Strong positive correlation between previous and current rank.
+- There is a strong positive relationship between last week's rank and this week's rank.
+- Songs that start high tend to remain high.
+- Lower-ranked songs show higher volatility.
+- New entries (rank 0 previously) show wide performance dispersion.
 
-High-ranking songs tend to maintain stability.
+**Interpretation:** Chart momentum plays a significant role in ranking persistence.
 
-Lower-ranking songs show higher volatility.
+---
 
-Songs at rank 0 (new entries) show extreme movement patterns.
+## **2️⃣ Chart Movement Distribution**
 
-This suggests ranking persistence plays a major role in chart survival.
+## **How Much Do Songs Move Up or Down the Chart?**
 
-2️⃣ Position Evolution Distribution (Movement Histogram)
+**Visualization Type:** Histogram (Position Evolution Bin)  
+**Metric:** Weekly rank change
 
-📊 Histogram of Weekly Position Changes
+### **Key Insights**
 
-Displays how much songs move up or down.
+- Most songs move within a small range (±5 positions).
+- Large upward or downward jumps are uncommon.
+- The majority of weekly ranking changes are incremental.
 
-Most songs cluster around small changes.
+**Interpretation:** Chart performance changes gradually rather than dramatically.
 
-Large upward jumps are rare.
+---
 
-Most movements are between -5 and +5 positions.
+## **3️⃣ Song Mood Map**
 
-Insight:
+## **Energy vs Danceability (Colored by Valence)**
 
-The majority of chart movement is incremental rather than dramatic. Chart momentum builds gradually rather than through extreme jumps.
+**Visualization Type:** Bubble Scatter Plot  
+**X-Axis:** Energy  
+**Y-Axis:** Danceability  
+**Color:** Valence (Emotional Positivity)
 
-3️⃣ Song Mood Map
+### **Key Insights**
 
-Energy vs Danceability (Colored by Valence)
+- High-energy songs often show higher danceability.
+- Positive-valence songs cluster in strong performance zones.
+- Mood features correlate with chart presence patterns.
 
-🎵 Bubble Chart
+**Interpretation:** Songs that are energetic, danceable, and emotionally positive show stronger chart consistency.
 
-X-axis: Energy
+---
 
-Y-axis: Danceability
+## **4️⃣ Rhythmic Power Analysis**
 
-Color: Valence (Mood positivity)
+## **Energy vs Tempo (BPM)**
 
-Insight:
+**Visualization Type:** Scatter Plot  
+**X-Axis:** Tempo (BPM)  
+**Y-Axis:** Energy Level
 
-High-energy songs tend to cluster at higher danceability.
+### **Key Insights**
 
-Positive valence songs dominate upper-right quadrant.
+- Most high-energy songs fall between 110–150 BPM.
+- Extremely slow or extremely fast tempos are less frequent in strong chart performers.
+- Tempo influences energy but does not fully determine it.
 
-Emotional tone and rhythm play a role in chart positioning.
+**Interpretation:** There appears to be a tempo range associated with optimal chart performance.
 
-This reveals a structural pattern in the types of songs that perform well.
+---
 
-4️⃣ Rhythmic Power Map
+## **📊 Analytical Themes Explored**
 
-Tempo vs Energy
+- **Ranking Persistence**
+- **Volatility & Momentum**
+- **Distribution of Weekly Movement**
+- **Mood-Based Audio Analysis**
+- **Tempo-Energy Relationships**
+- **Interactive Artist Filtering**
 
-🎼 Scatter Plot
+---
 
-X-axis: Tempo (BPM)
+## **🛠 Tools & Technologies**
 
-Y-axis: Energy Level
+- **Tableau Public**
+- Data Visualization
+- Trend Line Analysis
+- Distribution Analysis
+- Audio Feature Correlation
 
-Insight:
+---
 
-Most high-energy songs fall between 110–150 BPM.
+## **📂 Files Included**
 
-Extremely slow or extremely fast songs are less common.
+- Tableau Packaged Workbook (.twbx)
+- Supporting dataset
+- Dashboard visual export
 
-Energy is not strictly dependent on tempo, but moderate-to-high BPM dominates.
+---
 
-This provides production-level insight into musical composition patterns in successful songs.
+## **🚀 How to View**
 
-🧠 Key Analytical Themes
+1. Download the `.twbx` file.
+2. Open using Tableau Public or Tableau Desktop.
+3. Use the **Artist Credit Name** filter to explore artist-level behavior.
+4. Interact with visuals to analyze ranking and mood dynamics.
 
-✔ Ranking Stability
-✔ Momentum & Chart Movement
-✔ Mood & Emotional Patterns
-✔ Tempo & Performance Dynamics
-✔ Artist-Level Filtering
+---
 
-🛠 Tools Used
+## **💡 Business Relevance**
 
-Tableau Public
+This project demonstrates how performance data combined with audio features can be used to:
 
-Data Visualization
+- Identify ranking stability patterns
+- Analyze volatility behavior
+- Understand performance-driving attributes
+- Support data-driven music strategy
 
-Correlation Analysis
+---
 
-Distribution Analysis
+## **👤 Author**
 
-Interactive Dashboard Design
-
-📂 Files Included
-
-Tableau Packaged Workbook (.twbx)
-
-Dashboard Preview Images
-
-Sample Data (if included)
-
-🚀 How to Use
-
-Download the .twbx file
-
-Open in Tableau Desktop / Tableau Public
-
-Use the Artist Credit Name filter to explore artist-level patterns
-
-Interact with visual components to explore ranking behavior
-
-💡 Business Applications
-
-This type of analysis can help:
-
-Music labels understand ranking momentum
-
-Producers identify tempo-energy sweet spots
-
-Analysts predict ranking persistence
-
-Streaming platforms identify hit patterns
-
-👤 Author
-
-Nicky Kumari
-Data Analytics | Business Intelligence | Visualization Specialist
+**Nicky Kumari**  
+Data Analytics | Visualization | Business Intelligence
